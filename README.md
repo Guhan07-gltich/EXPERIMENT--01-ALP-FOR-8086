@@ -76,28 +76,70 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+1.ADD
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
 
-## Addition  of 8 bit ALP 
-
-
-
-## Output  
+2.SUB
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
  
-## Subtraction   of 8 bit numbers  ALP 
- 
+3.MUL
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+
+
+4.DIV
+ORG 100h
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+ret
+
+5.AND
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+
+6.OR
+Mov AL,33H
+Mov BL,44H
+OR AL,BL
+HLT
+
+7.NOT
+MOV AL,65H
+NOT AL
+HLT
+
+8.XOR
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+
+
 ## Output  
-## Multiplication alp 
- ## Output  
-
-
-## Division alp 
-
-## Output  
-
+  ![image](https://github.com/user-attachments/assets/ff00de5b-ad73-49c8-b73d-750c8195ccb2)
+![image](https://github.com/user-attachments/assets/67f9c9bd-248e-4290-9eb5-a0c27bc1cf82)
+![image](https://github.com/user-attachments/assets/e0cb412b-f943-41b1-b66a-08caf3b60747)
+![image](https://github.com/user-attachments/assets/23088b5e-aa84-4ac8-a036-dd83d92ed10e)
+![image](https://github.com/user-attachments/assets/969a683e-baa2-4a26-b842-66b9e04eb105)
+![image](https://github.com/user-attachments/assets/469036b4-3a73-4235-a7ff-109d58ba075f)
+![image](https://github.com/user-attachments/assets/027817e1-0fec-4a11-908d-41663436c41b)
+![image](https://github.com/user-attachments/assets/149570b6-b150-4511-b417-ddfff8926e15)
 
 ## Result :
  
-
+Thus execution of ALP on fundamental arithmetic and logical operations is sucessfully verified.
 
 
 
